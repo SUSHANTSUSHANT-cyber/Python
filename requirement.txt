@@ -1,0 +1,4 @@
+streamlit
+google-generativeai (sometimes called google-genai)
+pillow
+pydantic
