@@ -2,3 +2,5 @@ streamlit
 google-generativeai (sometimes called google-genai)
 pillow
 pydantic
+set GEMINI_API_KEY="Your API Key"    [Setting the enviorment in windows]
+
