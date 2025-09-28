@@ -82,7 +82,7 @@ def main():
     st.markdown("---")
     # Check if API key is configured  s
     # api_key = os.environ.get("GEMINI_API_KEY", "")
-    api_key = "AIzaSyAGpL6vs0Lscvg0pLSqfW3OMu2ccHXCmk4"
+    api_key = " "
     if not api_key:
         st.warning("⚠️ Gemini API key not configured. Please add your API key to generate videos.")
         st.info("You'll need a Gemini API key with access to VEO3. Set the environment variable 'GEMINI_API_KEY' or enter it below for testing.")
@@ -268,4 +268,5 @@ def display_generated_video(video_result: bytes):
         st.error("No video data to display.")
 
 if __name__ == "__main__":
+
     main()
